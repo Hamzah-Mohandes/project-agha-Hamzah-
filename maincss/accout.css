@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+/* #menu a::before {
+  content: "\f036";
+  font-family: "Font Awesome 5 Free";
+} */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+nav {
+  display: flex;
+  background-color: black;
+}
+nav li {
+  list-style: none;
+  padding: 20px;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+  font-family: sans-serif;
+}
+.right-nav
+{
+  width: 100%;
+  height: auto;
+  display: flex;
+
+  gap: 94rem;
+}
+main
+{
+  width: 100%;
+height: 100%;
+display: flex;
+  flex-flow: row;
+
+}
+.form {
+  width: 50%;
+  height: 100%;
+  color: white;
+  
+}
+form {
+  width: 100%;
+  height: 100%;
+ color: white;
+  z-index: -1;
+}
+
+.login {
+ /*  background-color: yellow; */
+  width: 100%;
+  height: 13rem;
+}
+.info 
+{
+  width: 100%;
+height: 8rem;
+color: black;
+padding: 4rem;
+display: flex;
+justify-content: space-between;
+}
+.info h3{
+  width: 100%;
+  padding: 2rem 0rem;
+  color: white;
+}
+.info p{
+  width: 100%;
+padding: 2rem 0rem;
+color: white;
+}
+
+/* .login .hr
+{
+  padding: 1px;
+  background-color: black;
+  width: 50%;
+  margin-left: 11rem;
+} */
+
+.login input
+{
+  width: 80%;
+  height: 3rem;
+  margin-left: 4rem;
+  border-top: 1px white solid;
+  border-bottom: 1px white solid;
+  border-left: none;
+ 
+  color: white;
+  background-color: black;
+  border-right: none;
+}
+
+.address
+{
+  width: 100%;
+height: 100%;
+
+}
+address
+{
+  width: 100%;
+height: 60%;
+
+ 
+}
+
+address .vn-ln
+{
+  width: 100%;
+  height: auto;
+  margin: 4rem;
+}
+address .fn
+{
+height: 3rem;
+margin-left: 0rem;
+width: 30%;
+border-top: 1px white solid;
+border-bottom: 1px white solid;
+border-left: none;
+color: white;
+background-color: black;
+border-right: none;
+width: 30%;
+
+}
+address .ln
+{
+  height: 3rem;
+  margin-left: 11rem;
+  width: 30%;
+  border-top: 1px white solid;
+  border-bottom: 1px white solid;
+  border-left: none;
+  color: white;
+  background-color: black;
+  border-right: none;
+  width: 30%;
+
+}
+address .shi
+{
+  position: relative;
+  top: 2em;
+  left: 3em;
+  font-size: x-large;
+}
+
+.ADDRESS
+{
+  width: 80%;
+height: 3rem;
+border-top: 1px white solid;
+    border-bottom: 1px white solid;
+    border-left: none;
+    color: white;
+    background-color: black;
+    border-right: none;
+margin: -1.5em 5em;
+}
+.city
+{
+  width: 80%;
+height: 3rem;
+border-top: 1px white solid;
+    border-bottom: 1px white solid;
+    border-left: none;
+    color: white;
+    background-color: black;
+    border-right: none;
+margin: 1.5em 5em;
+}
+
+.phone
+{
+  width: 80%;
+height: 3rem;
+border-top: 1px white solid;
+border-bottom: 1px white solid;
+border-left: none;
+color: white;
+background-color: black;
+border-right: none;
+margin: -1.5em 5em;
+}
+
+.button
+{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 5rem;
+  margin: 2em 1em;
+}
+
+.button button
+{
+  width: 39%;
+  height: 3rem;
+  margin: 0rem -2rem;
+}
+
+/* right side */
+.right
+{
+  width: 50%;
+    height: 100%;
+   
+    padding: 6em 3em 12em 11em;
+    display: flex;
+    flex-flow: column;
+}
+.gallry
+{
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: scroll;
+  flex-flow: column;
+}
+.card {
+  width: 52%;
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 8rem;
+  flex-flow: row;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+.hns{
+  width: 28rem;
+  height: auto;
+  padding: 1rem 5rem;
+  color: white;
+}
+/* .card h4 {
+  width: 100%;
+  height: auto;
+  font-family: ui-rounded;
+  margin: 0em 4em;
+  float: right;
+} */
+span.hg
+{
+  width: 100%;
+    height: auto;
+    position: relative;
+    left: -2.2em;
+   
+    white-space: nowrap;
+    font-size: 1.5rem;
+}
+
+
+span.pg {
+  width: 100%;
+  height: auto;
+  display: block;
+    position: relative;
+    left: -52px;
+}
+span.sg {
+  display: block;
+  position: relative;
+  left: -51px;
+}
+.preis
+{
+  width: 100%;
+  height: auto;
+  padding: 1rem 0rem;
+  display: flex;
+  flex-flow: column;
+  color: white;
+}
+.preis > span
+{
+  white-space: nowrap;
+}
+
+#pleft
+{
+  text-align: left;
+}
+#pright
+{
+  text-align: right;
+    position: relative;
+    top: -15px;
+}
+
+.ltotal
+{
+  white-space: nowrap;
+  width: 100%;
+  height: auto;
+  position: relative;
+   
+    bottom: -0.4em;
+}
+
+.rtotal
+{
+  font-size: larger;
+  padding: 0.5em;
+  text-align: right;
+  position: relative;
+  bottom: 1.3em;
+}

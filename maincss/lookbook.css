@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+/* left start */
+.left {
+  
+  width: 30%;
+  height: unset;
+  padding: 1em;
+ 
+}
+
+.left-header {
+  width: 100%;
+  display: inline-block;
+  padding: 0.5em;
+  margin: 1rem;
+  text-align: center;
+}
+
+.left-header li {
+  padding-left: 1rem;
+  list-style: none;
+}
+
+.left-header a {
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  text-decoration: none;
+  margin-right: 10rem;
+}
+
+.inhalt {
+  padding: 0rem;
+  margin: 2rem;
+}
+
+.inhalt h2 {
+  font-size: xxx-large;
+ 
+  margin-bottom: 3rem;
+}
+
+
+.color-size
+{
+
+  width: 85%;
+  height: 35%;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.photos
+{
+  width: 100%;
+  height: 30%;
+  
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.photos .pho
+{
+  width: 3em;
+  height: 3rem;
+
+  
+}
+
+.size
+{
+  width: 100%;
+  height: 20%;
+ 
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
+.size button
+{
+  width: 3rem;
+  height: 3rem;
+  border: 1px black solid;
+  background-color: white;
+  font-size: larger;
+  font-family:'Times New Roman', Times, serif ;
+}
+
+.bottom-button
+{
+  width: 100%;
+  height: auto;
+ 
+  display: flex;
+flex-flow: column wrap;
+gap: 1rem;
+justify-content: center;
+}
+.bottom-button .bu
+{
+  width: 86%;
+  height: 4rem;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2rem;
+}
+
+.bottom-button .add-b
+{
+  color: white;
+  border: 1px black solid;
+  background-color: rgb(0, 0, 0);
+  font-size: larger;
+  font-family:'Times New Roman', Times, serif ;
+}
+.bottom-button .add-w
+{
+  color: rgb(0, 0, 0);
+  border: 1px black solid;
+  background-color: rgb(255, 255, 255);
+  font-size: larger;
+  font-family:'Times New Roman', Times, serif ;
+}
+
+
+
+
+
+
+/* start right  */
+.right {
+ background-image: url(https://wallpaperaccess.com/full/1104434.jpg);
+ background-size: cover;
+  width: 80%;
+  height: 137vh;
+}
